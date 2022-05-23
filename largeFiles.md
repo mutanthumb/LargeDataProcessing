@@ -35,3 +35,9 @@ Count # of directories in current folder:
 Count # of files in current folder:
 
     find . -mindepth 1 -maxdepth 1 -type f | wc -l
+    
+Checking for storage usage:
+
+    df -h —> to get space available in both Gig and TB
+    du -ch fedora-testing/ | grep total
+    ls -sh —> human readable file sizes
