@@ -1,10 +1,11 @@
 1. Open code in text editor if Python or in MATLAB if it's a .m file
-2. Scan through code looking for relative or absolute file paths
+- I would highly recommend using this so you don't hose up your regular Python environment: Python virtual environments: https://docs.python.org/3/tutorial/venv.html
+3. Scan through code looking for relative or absolute file paths
     1. Verify that the files you were provided match those paths
     2. Can you with little effort make the data match these paths?
     - Yes. Proceed
     - No. Check in with researcher to see if you're missing files or folders.
-3. Once everything is where the code expects it to be, try running the code.
+4. Once everything is where the code expects it to be, try running the code.
     1. Does it complete?
     - Yes. YAY nice work. Check the related documentation to see if it can be improved.
     - No. Poop. Check for obvious errors:
