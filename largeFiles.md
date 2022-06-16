@@ -41,3 +41,14 @@ Checking for storage usage:
     df -h —> to get space available in both Gig and TB
     du -ch fedora-testing/ | grep total
     ls -sh —> human readable file sizes
+    
+Splitting 10000 files into 10 new folders of 1000 files each (from https://fedingo.com/how-to-split-folder-into-subfolders-in-linux/):
+
+    i=0; 
+    for f in *; 
+    do 
+        d=dir_$(printf %03d $((i/1000+1))); 
+        mkdir -p $d; 
+        mv "$f" $d; 
+        let i++; 
+    done
