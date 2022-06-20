@@ -15,6 +15,14 @@ To see if the nohup.out is still being written to:
 To check if the nohup process is still running:
 
     ps -ef |grep nohup 
+    
+Test ZIP file:
+
+    unzip -t example.zip
+    
+Let list of files in ZIP without unzipping file:
+
+    unzip -l example.zip
 
 Get checksum for file or folder (on Mac) this is helpful when you're creating your own zip or tar files and you want to be sure they are still intact after transfer to new location:
 
@@ -23,6 +31,10 @@ Get checksum for file or folder (on Mac) this is helpful when you're creating yo
 On Linux:
 
     md5sum /path/to/file
+    
+Get SHA1 checksum:
+
+    sha1sum somefile.txt
 
 Zip on Mac without hidden files:
 
