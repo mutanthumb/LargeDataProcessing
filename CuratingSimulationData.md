@@ -1,6 +1,12 @@
 Questions for simulation data (netCDF files and/or code) depositors:
 
-Researcher deposits netCDF files.
+Here is a helpful rubric for what to keep and how long to keep it:
+
+    - EarthCube workshop rubric - https://modeldatarcn.github.io/
+    - Rubric instructions: https://modeldatarcn.github.io/rubrics-worksheets/Rubric-Instructions-and-Use-Cases.pdf
+
+If you don't want to use the rubric here are some questions I ask when someone is depositing netCDF files.
+
 - Questions for researcher:
     - Is this raw output?
     - Is this processed output?
@@ -34,6 +40,5 @@ Researcher deposits netCDF files.
     - Readme_all.txt
 - Preservation needs?
     - File format transformation not needed for netCDF files
-- How long to keep the data?
-    - EarthCube workshop rubric - https://modeldatarcn.github.io/
+
 
