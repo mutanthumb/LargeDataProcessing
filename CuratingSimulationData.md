@@ -3,6 +3,7 @@ Questions for simulation data (netCDF files and/or code) depositors:
 Here is a helpful rubric for what to keep and how long to keep it:
 
     - EarthCube workshop rubric - https://modeldatarcn.github.io/
+    
     - Rubric instructions: https://modeldatarcn.github.io/rubrics-worksheets/Rubric-Instructions-and-Use-Cases.pdf
 
 If you don't want to use the rubric here are some questions I ask when someone is depositing netCDF files.
