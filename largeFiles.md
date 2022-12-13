@@ -54,6 +54,10 @@ Checking for storage usage:
     du -ch fedora-testing/ | grep total
     ls -sh —> human readable file sizes
     
+Renaming files and subdirectories recursively (from https://stackoverflow.com/questions/15012631/rename-files-and-directories-recursively-under-ubuntu-bash):
+    
+    find . -depth -execdir rename 's/old/new/g' '{}' \+ 
+    
 Splitting 10000 files into 10 new folders of 1000 files each (from https://fedingo.com/how-to-split-folder-into-subfolders-in-linux/):
 
     i=0; 
