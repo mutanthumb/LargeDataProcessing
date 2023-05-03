@@ -68,3 +68,7 @@ Splitting 10000 files into 10 new folders of 1000 files each (from https://fedin
         mv "$f" $d; 
         let i++; 
     done
+    
+Removing ".DS_STORE" files:
+
+    find . -name '.DS_Store' -type f -delete [enter]
